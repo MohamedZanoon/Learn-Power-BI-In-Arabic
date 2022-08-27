@@ -5,6 +5,7 @@ Learn Power BI In Arabic - Training<br/>
 - Power BI Playlist:  https://bit.ly/3AAAgCM
 - YouTube Channel: https://bit.ly/3dCzJat
 - Facebook Group: https://www.facebook.com/groups/zanoonlab
+- Email: zanoon.lab@gmail.com
 
 ### Lessons:
 - Lesson #001 - Introduction: https://youtu.be/P_Nr0FMyn9w
@@ -13,3 +14,4 @@ Learn Power BI In Arabic - Training<br/>
 - Lesson #004 - What & Why Power BI?: https://youtu.be/sCbifot0yUI
 - Lesson #005 - Gartner & Forrester | Independent Research Firms: https://youtu.be/MTCW3kLSiqs
 - Lesson #006 - Power BI Products: https://youtu.be/-j52W-BlHyI
+
