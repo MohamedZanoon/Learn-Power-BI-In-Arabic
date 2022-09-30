@@ -1,0 +1,38 @@
+Data Source : SQL Server
+Table: Customer
+ID (Int), Name (String), Gender (String)
+1       , Ahmed        , M
+2       , Mostafa      , M
+3       , Esraa        , F 
+3       , Asmaa        , F 
+
+------------------------------
+Power BI 
+
+==>Import: All Data Sources 
+Table: Customer
+ID (Int), Name (String), Gender (String)
+1       , Ahmed        , M
+2       , Mostafa      , M
+3       , Esraa        , F 
+3       , Asmaa        , F 
+ 
+Visual: # Customers => Power BI => 4
+
+ => Data Source
+Data & Model & Visuals => Power BI
+
+==> DirectQuery: Some of Data Sources (Like: SQL Server) 
+Table: Customer
+ID (Int), Name (String), Gender (String)
+
+Visual: # Customers => (SELECT COUNT(*) FROM Customers) => Data Source => Power BI => 4 
+
+
+Data => Data Source
+Model & Visuals => Power BI 
+
+==> LiveConnection: Analysis Services (SSAS, AAS) & Power BI Dataset
+
+Data & Model => Data Source
+Visuals => Power BI 

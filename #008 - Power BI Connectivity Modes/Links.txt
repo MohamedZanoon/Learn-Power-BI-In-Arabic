@@ -1,0 +1,6 @@
+Lesson #008 - Power BI Connectivity Modes: https://youtu.be/GinvtS0yMYk
+
+
+Other Links:
+https://docs.microsoft.com/en-us/power-bi/connect-data/power-bi-data-sources
+
