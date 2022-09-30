@@ -6,6 +6,7 @@ Learn Power BI In Arabic - Training<br/>
 - YouTube Channel: https://bit.ly/3dCzJat
 - Facebook Group: https://www.facebook.com/groups/zanoonlab
 - Email: zanoon.lab@gmail.com
+- Agenda: https://bit.ly/3BWZ4o4
 
 ### Lessons:
 - Lesson #001 - Introduction: https://youtu.be/P_Nr0FMyn9w
