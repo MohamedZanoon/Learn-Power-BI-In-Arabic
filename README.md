@@ -14,4 +14,10 @@ Learn Power BI In Arabic - Training<br/>
 - Lesson #004 - What & Why Power BI?: https://youtu.be/sCbifot0yUI
 - Lesson #005 - Gartner & Forrester | Independent Research Firms: https://youtu.be/MTCW3kLSiqs
 - Lesson #006 - Power BI Products: https://youtu.be/-j52W-BlHyI
+- Lesson #007 - Power BI Desktop | Free: https://youtu.be/nz9PK3rqJ5U
+- Lesson #008 - Power BI Connectivity Modes: https://youtu.be/GinvtS0yMYk
+- Lesson #009 - Download and Install Power BI Desktop | Free: https://youtu.be/q6yADBBHUHM
+- Lesson #010 - Demo #1 | Web Page | Import Mode: https://youtu.be/RLwYOgEUrmQ
+- Lesson #011 - Demo #2 | Flat Files (CSV) | Import Mode:
+
 
