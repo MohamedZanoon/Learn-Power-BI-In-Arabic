@@ -1,0 +1,4 @@
+Lesson #011 - Demo #2 | Flat Files (CSV) | Import Mode: https://youtu.be/RLwYOgEUrmQ
+
+Other Links:         
+https://www.kaggle.com/kemical/kickstarter-projects
