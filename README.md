@@ -19,6 +19,6 @@ Learn Power BI In Arabic - Training<br/>
 - Lesson #008 - Power BI Connectivity Modes: https://youtu.be/GinvtS0yMYk
 - Lesson #009 - Download and Install Power BI Desktop | Free: https://youtu.be/q6yADBBHUHM
 - Lesson #010 - Demo #1 | Web Page | Import Mode: https://youtu.be/RLwYOgEUrmQ
-- Lesson #011 - Demo #2 | Flat Files (CSV) | Import Mode:
+- Lesson #011 - Demo #2 | Flat Files (CSV) | Import Mode: https://youtu.be/imo62t3xJpA
 
 
