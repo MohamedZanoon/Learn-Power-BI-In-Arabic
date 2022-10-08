@@ -20,5 +20,5 @@ Learn Power BI In Arabic - Training<br/>
 - Lesson #009 - Download and Install Power BI Desktop | Free: https://youtu.be/q6yADBBHUHM
 - Lesson #010 - Demo #1 | Web Page | Import Mode: https://youtu.be/RLwYOgEUrmQ
 - Lesson #011 - Demo #2 | Flat Files (CSV) | Import Mode: https://youtu.be/imo62t3xJpA
-
+- Lesson #012 - Demo #3 | Flat File (Excel) | Import Mode: https://youtu.be/GEqpVwzFWq4
 
