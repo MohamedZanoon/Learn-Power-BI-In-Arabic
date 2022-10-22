@@ -22,4 +22,5 @@ Learn Power BI In Arabic - Training<br/>
 - Lesson #011 - Demo #2 | Flat Files (CSV) | Import Mode: https://youtu.be/imo62t3xJpA
 - Lesson #012 - Demo #3 | Flat File (Excel) | Import Mode: https://youtu.be/GEqpVwzFWq4
 - Lesson #013 - Demo #4 | Database (SQL Server) | Import Mode: https://youtu.be/nNLy0MIn_Jw
+- Lesson #014 - Demo #5 | Database (SQL Server) | DirectQuery Mode: https://youtu.be/i_R6ClQtzZ0
 

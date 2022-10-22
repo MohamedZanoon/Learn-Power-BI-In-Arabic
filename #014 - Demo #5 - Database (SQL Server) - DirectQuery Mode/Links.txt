@@ -1,0 +1,5 @@
+Lesson #014 - Demo #5 | Database (SQL Server) | DirectQuery Mode: https://youtu.be/i_R6ClQtzZ0
+
+Other Links:         
+https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
+https://docs.microsoft.com/en-us/power-bi/connect-data/power-bi-data-sources
