@@ -1,6 +1,6 @@
-# Learn-Power-BI-In-Arabic
+# Learn Power BI In Arabic
 Zanoon Lab YouTube Channel<br/>
-Learn Power BI In Arabic - Training<br/>
+Power BI Training<br/>
 
 - Power BI Playlist:  https://bit.ly/3AAAgCM
 - YouTube Channel: https://bit.ly/3dCzJat
@@ -23,4 +23,5 @@ Learn Power BI In Arabic - Training<br/>
 - Lesson #012 - Demo #3 | Flat File (Excel) | Import Mode: https://youtu.be/GEqpVwzFWq4
 - Lesson #013 - Demo #4 | Database (SQL Server) | Import Mode: https://youtu.be/nNLy0MIn_Jw
 - Lesson #014 - Demo #5 | Database (SQL Server) | DirectQuery Mode: https://youtu.be/i_R6ClQtzZ0
+- Lesson #015 - Brief on Dimensional Modeling | Why Star Schema is Important in Power BI?: 
 

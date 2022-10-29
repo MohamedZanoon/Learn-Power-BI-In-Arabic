@@ -1,0 +1,6 @@
+Lesson #015 - Brief on Dimensional Modeling | Why Star Schema is Important in Power BI?: https://youtu.be/mTYsJkuzrr8
+
+Other Links:         
+https://www.amazon.com/Data-Warehouse-Toolkit-Definitive-Dimensional/dp/1118530802/ref=sr_1_1
+https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
+https://guyinacube.com/2021/02/24/why-power-bi-loves-a-star-schema
