@@ -24,4 +24,4 @@ Power BI Training<br/>
 - Lesson #013 - Demo #4 | Database (SQL Server) | Import Mode: https://youtu.be/nNLy0MIn_Jw
 - Lesson #014 - Demo #5 | Database (SQL Server) | DirectQuery Mode: https://youtu.be/i_R6ClQtzZ0
 - Lesson #015 - Brief on Dimensional Modeling | Why Star Schema is Important?: https://youtu.be/mTYsJkuzrr8
-- Lesson #015 - Demo #6 | Flat File to Data Model (Star Schema): https://youtu.be/kcivtpyExEk
+- Lesson #016 - Demo #6 | Flat File to Data Model (Star Schema): https://youtu.be/kcivtpyExEk
