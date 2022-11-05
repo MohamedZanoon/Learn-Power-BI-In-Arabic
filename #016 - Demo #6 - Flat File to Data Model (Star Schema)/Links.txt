@@ -1,0 +1,4 @@
+Lesson #016 - Demo #6 | Flat File to Data Model (Star Schema): https://youtu.be/kcivtpyExEk
+
+Other Links:         
+ 
