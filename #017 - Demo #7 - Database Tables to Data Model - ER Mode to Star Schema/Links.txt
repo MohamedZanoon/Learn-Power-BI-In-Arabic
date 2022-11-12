@@ -1,0 +1,4 @@
+Lesson #017 - Demo #7 | Database Tables to Data Model | ER Mode to Star Schema: ttps://youtu.be/Yv1Ic0rPXN0
+
+Other Links:         
+https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms

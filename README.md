@@ -18,10 +18,11 @@ Power BI Training<br/>
 - Lesson #007 - Power BI Desktop | Free: https://youtu.be/nz9PK3rqJ5U
 - Lesson #008 - Power BI Connectivity Modes: https://youtu.be/GinvtS0yMYk
 - Lesson #009 - Download and Install Power BI Desktop | Free: https://youtu.be/q6yADBBHUHM
-- Lesson #010 - <span style="color:#D2222D">Demo #1 | Web Page | Import Mode:</span> https://youtu.be/RLwYOgEUrmQ
-- Lesson #011 - <span style="color:#D2222D">Demo #2 | Flat Files (CSV) | Import Mode:</span> https://youtu.be/imo62t3xJpA
-- Lesson #012 - <span style="color:#D2222D">Demo #3 | Flat File (Excel) | Import Mode:</span> https://youtu.be/GEqpVwzFWq4
-- Lesson #013 - <span style="color:#D2222D">Demo #4 | Database (SQL Server) | Import Mode:</span> https://youtu.be/nNLy0MIn_Jw
-- Lesson #014 - <span style="color:#D2222D">Demo #5 | Database (SQL Server) | DirectQuery Mode:</span> https://youtu.be/i_R6ClQtzZ0
+- Lesson #010 - Demo #1 | Web Page | Import Mode: https://youtu.be/RLwYOgEUrmQ
+- Lesson #011 - Demo #2 | Flat Files (CSV) | Import Mode: https://youtu.be/imo62t3xJpA
+- Lesson #012 - Demo #3 | Flat File (Excel) | Import Mode: https://youtu.be/GEqpVwzFWq4
+- Lesson #013 - Demo #4 | Database (SQL Server) | Import Mode: https://youtu.be/nNLy0MIn_Jw
+- Lesson #014 - Demo #5 | Database (SQL Server) | DirectQuery Mode: https://youtu.be/i_R6ClQtzZ0
 - Lesson #015 - Brief on Dimensional Modeling | Why Star Schema is Important?: https://youtu.be/mTYsJkuzrr8
-- Lesson #016 - <span style="color:#D2222D">Demo #6 | Flat File to Data Model | Single Table to Star Schema:</span> https://youtu.be/kcivtpyExEk
+- Lesson #016 - Demo #6 | Flat File to Data Model | Single Table to Star Schema: https://youtu.be/kcivtpyExEk
+- Lesson #017 - Demo #7 | Database Tables to Data Model | ER Mode to Star Schema: https://youtu.be/Yv1Ic0rPXN0
