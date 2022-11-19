@@ -1,0 +1,60 @@
+@@ AdventureWorks
+- Data Source: 
+https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
+
+Modeling: 
+
+We need to create the model on Analysis Services and apply all transformations using database views 
+Remember to Fix Duplication Issues (Fix Redundancy Issues) using T-SQL
+
+@@@@@@ Star Schema @@@@@@
+Like Image (Demo #008.png)
+
+Tables:
+Sales.SalesOrderHeader
+Sales.SalesOrderDetail 
+Sales.SalesTerritory
+Purchasing.ShipMethod
+Production.Product
+Production.ProductSubcategory
+Production.ProductCategory
+
+Status (Add based on ufnGetSalesOrderStatusText function) 
+
+-Rename Tables, columns
+-Remove unused columns 
+  
+Measures
+- # Orders by OrderDate Measure 
+- # Orders by ShipDate Measure 
+- # Orders by DueDate Measure 
+- # Order Details Measure 
+- Total SubTotal Measure 
+- Total Tax Measure 
+- Total Freight Measure 
+- Total Due Measure  
+
+create DAX table that contains all measures
+
+Visuals: (Use Measures)
+
+- Drill Down
+- Drill Through  
+
+- # Orders Card
+- # Order Details Card
+- Total SubTotal Card
+- Total Tax Card
+- Total Freight Card
+- Total Due Card
+
+# Orders by OrderDate vs. ShipDate vs. DueDate
+# Orders by Status
+# Orders by Shipmethod
+# Orders by Category, SubCategory, Product
+# Orders vs. TotalDue by Territory
+
+
+
+
+-- Good Colors, Layout and Chart Titles (Meaningful)

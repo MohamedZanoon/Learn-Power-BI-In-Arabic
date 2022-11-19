@@ -1,0 +1,5 @@
+Lesson #018 - Demo #8 | SSAS & AAS | Live Mode | Analysis Service From Scratch: https://youtu.be/_qvSFe5e9RM
+
+
+Other Links:         
+https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
