@@ -27,4 +27,6 @@ Power BI Training<br/>
 - Lesson #016 - Demo #6 | Flat File to Data Model | Single Table to Star Schema: https://youtu.be/kcivtpyExEk
 - Lesson #017 - Demo #7 | Database Tables to Data Model | ER Mode to Star Schema: https://youtu.be/Yv1Ic0rPXN0
 - Lesson #018 - Demo #8 | SSAS & AAS | Live Mode | Analysis Service From Scratch: https://youtu.be/_qvSFe5e9RM
+- Lesson #019 - Power BI Service: https://youtu.be/GO-n_i7E-Yk
+
 

@@ -1,0 +1,7 @@
+Lesson #019 - Power BI Service: https://youtu.be/GO-n_i7E-Yk
+
+Other Links:      
+https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/
+https://medium.com/chenjd-xyz/azure-fundamental-iaas-paas-saas-973e0c406de7
+https://powerbi.microsoft.com/en-us/pricing/
+https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-what-is
