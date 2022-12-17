@@ -30,4 +30,4 @@ Power BI Training<br/>
 - [Lesson #019 - Power BI Service](https://youtu.be/GO-n_i7E-Yk)
 - [Lesson #020 - Demo #09 | Power BI Service | Create Free Account](https://youtu.be/z4ElaywUr80)
 - [Lesson #021 - Demo #10 | Power BI Service | Publish Reports | Use Reports](https://youtu.be/Z5U2xY9LdJ0)
-
+- [Lesson #022 - Demo #11 | Power BI Service | On-premises Data Gateway | Refresh](https://youtu.be/7Dy5fcchvP4)

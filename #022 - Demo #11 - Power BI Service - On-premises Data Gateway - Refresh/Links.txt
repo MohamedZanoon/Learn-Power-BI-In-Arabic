@@ -1,0 +1,5 @@
+Lesson #022 - Demo #11 - Power BI Service - On-premises Data Gateway - Refresh
+
+Other Links:      
+https://powerbi.microsoft.com/en-us/gateway
+https://learn.microsoft.com/en-us/power-bi/connect-data/service-gateway-enterprise-manage-ssas
