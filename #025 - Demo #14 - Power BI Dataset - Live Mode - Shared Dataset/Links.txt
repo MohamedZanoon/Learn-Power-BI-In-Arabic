@@ -1,0 +1,6 @@
+Lesson #025 - Demo #14 | Power BI Dataset | Live Mode | Shared Dataset: https://youtu.be/u0A5OhZPUsU
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content
+https://powerbi.microsoft.com
+https://app.powerbi.com
