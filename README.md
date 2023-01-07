@@ -33,3 +33,4 @@ Power BI Training<br/>
 - [Lesson #022 - Demo #11 | Power BI Service | On-premises Data Gateway | Refresh](https://youtu.be/7Dy5fcchvP4)
 - [Lesson #023 - Demo #12 | Power BI Service | Access & Share](https://youtu.be/Z6c16gXe2kc)
 - [Lesson #024 - Demo #13 | Power BI Service | Create Free Account | novyPro](https://youtu.be/LO-UZ6RMbJU)
+- [Lesson #025 - Demo #14 | Power BI Dataset | Live Mode | Shared Dataset](https://youtu.be/u0A5OhZPUsU)
