@@ -34,3 +34,4 @@ Power BI Training<br/>
 - [Lesson #023 - Demo #12 | Power BI Service | Access & Share](https://youtu.be/Z6c16gXe2kc)
 - [Lesson #024 - Demo #13 | Power BI Service | Create Free Account | novyPro](https://youtu.be/LO-UZ6RMbJU)
 - [Lesson #025 - Demo #14 | Power BI Dataset | Live Mode | Shared Dataset](https://youtu.be/u0A5OhZPUsU)
+- [Lesson #026 - Demo #15 | Power BI Service | Row-Level Security | RLS](https://youtu.be/9XzJ-EC8K_g)

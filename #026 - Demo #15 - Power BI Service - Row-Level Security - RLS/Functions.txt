@@ -1,0 +1,5 @@
+USERNAME(): Domain\Username (zanoonlab\mez) => Power BI Desktop
+
+USERNAME(): Username@Domain.com (mez@zanoonlab.com) => Power BI Service
+
+USERPRINCIPALNAME(): Username@Domain.com (mez@zanoonlab.com) => Power BI Desktop & Power BI Service

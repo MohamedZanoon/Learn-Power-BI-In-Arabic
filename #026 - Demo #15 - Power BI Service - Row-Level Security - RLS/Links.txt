@@ -1,0 +1,6 @@
+Lesson #026 - Demo #15 | Power BI Service | Row-Level Security | RLS: https://youtu.be/9XzJ-EC8K_g
+
+Other Links:  
+https://learn.microsoft.com/en-us/sql/relational-databases/security/row-level-security?view=sql-server-ver16
+https://powerbi.microsoft.com
+https://app.powerbi.com
