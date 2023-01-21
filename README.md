@@ -18,7 +18,7 @@ Power BI Training<br/>
 - [Lesson #007 - Power BI Desktop | Free](https://youtu.be/nz9PK3rqJ5U)
 - [Lesson #008 - Power BI Connectivity Modes](https://youtu.be/GinvtS0yMYk)
 - [Lesson #009 - Download and Install Power BI Desktop | Free](https://youtu.be/q6yADBBHUHM)
-- [Lesson #010 - Demo #01 | Web Page | Import Mode](https://youtu.be/RLwYOgEUrmQ))
+- [Lesson #010 - Demo #01 | Web Page | Import Mode](https://youtu.be/RLwYOgEUrmQ)
 - [Lesson #011 - Demo #02 | Flat Files (CSV) | Import Mode](https://youtu.be/imo62t3xJpA)
 - [Lesson #012 - Demo #03 | Flat File (Excel) | Import Mode](https://youtu.be/GEqpVwzFWq4)
 - [Lesson #013 - Demo #04 | Database (SQL Server) | Import Mode](https://youtu.be/nNLy0MIn_Jw)
@@ -35,3 +35,4 @@ Power BI Training<br/>
 - [Lesson #024 - Demo #13 | Power BI Service | Create Free Account | novyPro](https://youtu.be/LO-UZ6RMbJU)
 - [Lesson #025 - Demo #14 | Power BI Dataset | Live Mode | Shared Dataset](https://youtu.be/u0A5OhZPUsU)
 - [Lesson #026 - Demo #15 | Power BI Service | Row-Level Security | RLS](https://youtu.be/9XzJ-EC8K_g)
+- [Lesson #027 - Demo #16 | Power BI Service | Dataflows](https://youtu.be/X8H5R2DbBLQ)
