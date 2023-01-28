@@ -36,3 +36,4 @@ Power BI Training<br/>
 - [Lesson #025 - Demo #14 | Power BI Dataset | Live Mode | Shared Dataset](https://youtu.be/u0A5OhZPUsU)
 - [Lesson #026 - Demo #15 | Power BI Service | Row-Level Security | RLS](https://youtu.be/9XzJ-EC8K_g)
 - [Lesson #027 - Demo #16 | Power BI Service | Dataflows](https://youtu.be/X8H5R2DbBLQ)
+- [Lesson #028 - Demo #17 | Power BI Service | Datasets](https://youtu.be/G48frTf9Zxw)

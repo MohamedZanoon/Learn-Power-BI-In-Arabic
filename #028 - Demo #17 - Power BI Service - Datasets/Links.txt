@@ -1,0 +1,7 @@
+Lesson #028 - Demo #17 | Power BI Service | Datasets: https://youtu.be/G48frTf9Zxw
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand
+https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services
+https://powerbi.microsoft.com
+https://app.powerbi.com
