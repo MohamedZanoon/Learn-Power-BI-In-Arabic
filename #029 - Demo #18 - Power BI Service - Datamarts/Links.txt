@@ -1,0 +1,7 @@
+Lesson #029 - Demo #18 | Power BI Service | Datamarts: https://youtu.be/t8fEPwYI_Og
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-per-user-faq
+https://learn.microsoft.com/en-us/power-bi/transform-model/datamarts/datamarts-overview
+https://powerbi.microsoft.com
+https://app.powerbi.com
