@@ -1,0 +1,4 @@
+Lesson #030 - Demo #19 | Power Query | Transform Data | Excel & PDF & Web Page: ttps://youtu.be/R14AHF0mvrc
+
+Other Links:  
+https://learn.microsoft.com/en-us/powerquery-m/
