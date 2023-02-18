@@ -39,3 +39,4 @@ Power BI Training<br/>
 - [Lesson #028 - Demo #17 | Power BI Service | Datasets](https://youtu.be/G48frTf9Zxw)
 - [Lesson #029 - Demo #18 | Power BI Service | Datamart](https://youtu.be/t8fEPwYI_Og)
 - [Lesson #030 - Demo #19 | Power Query | Transform Data | Excel & PDF & Web Page](https://youtu.be/R14AHF0mvrc)
+- [Lesson #031 - Demo #20 | Power BI Service | Paginated Report](https://youtu.be/JDG5JKJHBT8)

@@ -1,0 +1,9 @@
+Lesson #031 - Demo #20 | Power BI Service | Paginated Report: https://youtu.be/JDG5JKJHBT8
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-bi/paginated-reports/paginated-reports-report-builder-power-bi
+https://www.microsoft.com/en-us/download/details.aspx?id=58158
+https://learn.microsoft.com/en-us/power-bi/visuals/paginated-report-visual
+https://learn.microsoft.com/en-us/power-bi/paginated-reports/paginated-reports-samples
+https://powerbi.microsoft.com
+https://app.powerbi.com
