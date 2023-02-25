@@ -1,0 +1,232 @@
+{
+    "name": "Sales Dataflow",
+    "description": "",
+    "version": "1.0",
+    "culture": "en-US",
+    "modifiedTime": "2023-01-01T14:56:56.4959326+00:00",
+    "ppdf:outputFileFormat": "csv",
+    "pbi:mashup": {
+        "fastCombine": false,
+        "allowNativeQueries": false,
+        "skipAutomaticHeaderAndTypeDetection": false,
+        "queriesMetadata": {
+            "vw_Sales": {
+                "queryId": "46a1f710-15cd-434d-8371-c763dac4651e",
+                "queryName": "vw_Sales"
+            },
+            "FactOrderDetails": {
+                "queryId": "e8fced06-ea22-46cd-b998-9bbf2c051e01",
+                "queryName": "FactOrderDetails",
+                "loadEnabled": true
+            },
+            "DimStatuses": {
+                "queryId": "83fa7324-edee-4cde-89e6-857793202e5d",
+                "queryName": "DimStatuses",
+                "loadEnabled": true
+            },
+            "DimTerritories": {
+                "queryId": "e27f38a8-ee57-4386-867b-12fb8b48c3b7",
+                "queryName": "DimTerritories",
+                "loadEnabled": true
+            },
+            "DimShipMethods": {
+                "queryId": "9ca4415c-4b8e-4758-aee2-02e011c25e2e",
+                "queryName": "DimShipMethods",
+                "loadEnabled": true
+            },
+            "DimProducts": {
+                "queryId": "b7b20317-ff7d-4521-9310-61308351c61e",
+                "queryName": "DimProducts",
+                "loadEnabled": true
+            },
+            "DimDates": {
+                "queryId": "03343a09-5ce6-4b8f-bb09-9649fdf1e80d",
+                "queryName": "DimDates",
+                "loadEnabled": true
+            }
+        },
+        "document": "section Section1;\r\nshared vw_Sales = let\r\n  Source = Sql.Database(\".\", \"AdventureWorks\"),\r\n  Navigation = Source{[Schema = \"dbo\", Item = \"vw_Sales\"]}[Data]\r\nin\r\n  Navigation;\r\nshared FactOrderDetails = let\n  Source = vw_Sales,\n  #\"Added Custom\" = Table.AddColumn(Source, \"OrderDateKey\", each Date.ToText([OrderDate], \"yyyyMMdd\")),\n  #\"Added Custom1\" = Table.AddColumn(#\"Added Custom\", \"DueDateKey\", each Date.ToText([DueDate], \"yyyyMMdd\")),\n  #\"Added Custom2\" = Table.AddColumn(#\"Added Custom1\", \"ShipDateKey\", each Date.ToText([ShipDate], \"yyyyMMdd\")),\n  #\"Changed Type1\" = Table.TransformColumnTypes(#\"Added Custom2\",{{\"OrderDateKey\", Int64.Type}, {\"DueDateKey\", Int64.Type}, {\"ShipDateKey\", Int64.Type}}),\n  #\"Removed Other Columns\" = Table.SelectColumns(#\"Changed Type1\",{\"OrderDetailID\", \"OrderID\", \"StatusID\", \"OnlineOrderFlag\", \"CustomerID\", \"SalesPersonID\", \"TerritoryID\", \"ShipMethodID\", \"ProductID\", \"OrderQty\", \"UnitPrice\", \"LineTotal\", \"TaxAmt\", \"Freight\", \"TotalDue\", \"OrderDateKey\", \"DueDateKey\", \"ShipDateKey\"})\nin\n    #\"Removed Other Columns\";\r\nshared DimStatuses = let\r\n  Source = vw_Sales,\r\n  #\"Choose columns\" = Table.SelectColumns(Source, {\"StatusID\", \"Status\"}),\r\n  #\"Removed duplicates\" = Table.Distinct(#\"Choose columns\", {\"StatusID\", \"Status\"})\r\nin\r\n  #\"Removed duplicates\";\r\nshared DimTerritories = let\n    Source = vw_Sales,\n    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"OrderDetailID\", Int64.Type}, {\"OrderID\", Int64.Type}, {\"OrderDate\", type date}, {\"DueDate\", type date}, {\"ShipDate\", type date}, {\"StatusID\", Int64.Type}, {\"Status\", type text}, {\"OnlineOrderFlag\", Int64.Type}, {\"CustomerID\", Int64.Type}, {\"SalesPersonID\", Int64.Type}, {\"TerritoryID\", Int64.Type}, {\"Territory\", type text}, {\"TerritoryGroup\", type text}, {\"ShipMethodID\", Int64.Type}, {\"ShipMethod\", type text}, {\"ProductID\", Int64.Type}, {\"Product\", type text}, {\"ProductSubCategory\", type text}, {\"ProductCategory\", type text}, {\"OrderQty\", Int64.Type}, {\"UnitPrice\", type number}, {\"LineTotal\", type number}, {\"TaxAmt\", type number}, {\"Freight\", type number}, {\"TotalDue\", type number}}),\n    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"OrderID\"}),\n    #\"Removed Other Columns\" = Table.SelectColumns(#\"Removed Columns\",{\"TerritoryID\", \"Territory\", \"TerritoryGroup\"}),\n    #\"Removed Duplicates\" = Table.Distinct(#\"Removed Other Columns\", {\"Territory\"})\nin\n    #\"Removed Duplicates\";\r\nshared DimShipMethods = let\n  Source = vw_Sales,\n  #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"OrderDetailID\", Int64.Type}, {\"OrderID\", Int64.Type}, {\"OrderDate\", type date}, {\"DueDate\", type date}, {\"ShipDate\", type date}, {\"StatusID\", Int64.Type}, {\"Status\", type text}, {\"OnlineOrderFlag\", Int64.Type}, {\"CustomerID\", Int64.Type}, {\"SalesPersonID\", Int64.Type}, {\"TerritoryID\", Int64.Type}, {\"Territory\", type text}, {\"TerritoryGroup\", type text}, {\"ShipMethodID\", Int64.Type}, {\"ShipMethod\", type text}, {\"ProductID\", Int64.Type}, {\"Product\", type text}, {\"ProductSubCategory\", type text}, {\"ProductCategory\", type text}, {\"OrderQty\", Int64.Type}, {\"UnitPrice\", type number}, {\"LineTotal\", type number}, {\"TaxAmt\", type number}, {\"Freight\", type number}, {\"TotalDue\", type number}}),\n  #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"OrderID\"}),\n  #\"Removed Other Columns\" = Table.SelectColumns(#\"Removed Columns\",{\"ShipMethodID\", \"ShipMethod\"}),\n  #\"Removed Duplicates\" = Table.Distinct(#\"Removed Other Columns\")\nin\n  #\"Removed Duplicates\";\r\nshared DimProducts = let\n    Source = vw_Sales,\n    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"OrderDetailID\", Int64.Type}, {\"OrderID\", Int64.Type}, {\"OrderDate\", type date}, {\"DueDate\", type date}, {\"ShipDate\", type date}, {\"StatusID\", Int64.Type}, {\"Status\", type text}, {\"OnlineOrderFlag\", Int64.Type}, {\"CustomerID\", Int64.Type}, {\"SalesPersonID\", Int64.Type}, {\"TerritoryID\", Int64.Type}, {\"Territory\", type text}, {\"TerritoryGroup\", type text}, {\"ShipMethodID\", Int64.Type}, {\"ShipMethod\", type text}, {\"ProductID\", Int64.Type}, {\"Product\", type text}, {\"ProductSubCategory\", type text}, {\"ProductCategory\", type text}, {\"OrderQty\", Int64.Type}, {\"UnitPrice\", type number}, {\"LineTotal\", type number}, {\"TaxAmt\", type number}, {\"Freight\", type number}, {\"TotalDue\", type number}}),\n    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"OrderID\"}),\n    #\"Removed Other Columns\" = Table.SelectColumns(#\"Removed Columns\",{\"ProductID\", \"Product\", \"ProductSubCategory\", \"ProductCategory\"}),\n    #\"Removed Duplicates\" = Table.Distinct(#\"Removed Other Columns\")\nin\n    #\"Removed Duplicates\";\r\nshared DimDates = let\n  Source = List.Dates(#date( 2011, 1, 1 ), (365 * 10) + 1, #duration( 1, 0, 0, 0 )),\r\n  #\"Converted to table\" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),\r\n  #\"Renamed columns\" = Table.RenameColumns(#\"Converted to table\", {{\"Column1\", \"Date\"}}),\r\n  #\"Changed column type\" = Table.TransformColumnTypes(#\"Renamed columns\", {{\"Date\", type date}}),\r\n  #\"Inserted year\" = Table.AddColumn(#\"Changed column type\", \"Year\", each Date.Year([Date]), type nullable number),\r\n  #\"Inserted month\" = Table.AddColumn(#\"Inserted year\", \"Month\", each Date.Month([Date]), type nullable number),\r\n  #\"Inserted day\" = Table.AddColumn(#\"Inserted month\", \"Day\", each Date.Day([Date]), type nullable number)\nin\n  #\"Inserted day\";\r\n",
+        "connectionOverrides": [{
+                "path": ".;AdventureWorks",
+                "kind": "SQL",
+                "provider": "CdsA",
+                "authenticationKind": null,
+                "environmentName": null,
+                "apiName": null,
+                "connectionName": "8a83035b-ff93-4b23-a3e4-1b762ec09e4b",
+                "audience": null
+            }
+        ]
+    },
+    "annotations": [{
+            "name": "pbi:QueryGroups",
+            "value": "[]"
+        }
+    ],
+    "entities": [{
+            "$type": "LocalEntity",
+            "name": "FactOrderDetails",
+            "description": "",
+            "pbi:refreshPolicy": {
+                "$type": "FullRefreshPolicy",
+                "location": "FactOrderDetails.csv"
+            },
+            "attributes": [{
+                    "name": "OrderDetailID",
+                    "dataType": "int64"
+                }, {
+                    "name": "OrderID",
+                    "dataType": "int64"
+                }, {
+                    "name": "StatusID",
+                    "dataType": "int64"
+                }, {
+                    "name": "OnlineOrderFlag",
+                    "dataType": "boolean"
+                }, {
+                    "name": "CustomerID",
+                    "dataType": "int64"
+                }, {
+                    "name": "SalesPersonID",
+                    "dataType": "int64"
+                }, {
+                    "name": "TerritoryID",
+                    "dataType": "int64"
+                }, {
+                    "name": "ShipMethodID",
+                    "dataType": "int64"
+                }, {
+                    "name": "ProductID",
+                    "dataType": "int64"
+                }, {
+                    "name": "OrderQty",
+                    "dataType": "int64"
+                }, {
+                    "name": "UnitPrice",
+                    "dataType": "decimal",
+                    "cdm:traits": [{
+                            "traitReference": "means.measurement.currency",
+                            "arguments": []
+                        }
+                    ]
+                }, {
+                    "name": "LineTotal",
+                    "dataType": "double"
+                }, {
+                    "name": "TaxAmt",
+                    "dataType": "double"
+                }, {
+                    "name": "Freight",
+                    "dataType": "double"
+                }, {
+                    "name": "TotalDue",
+                    "dataType": "double"
+                }, {
+                    "name": "OrderDateKey",
+                    "dataType": "int64"
+                }, {
+                    "name": "DueDateKey",
+                    "dataType": "int64"
+                }, {
+                    "name": "ShipDateKey",
+                    "dataType": "int64"
+                }
+            ]
+        }, {
+            "$type": "LocalEntity",
+            "name": "DimStatuses",
+            "description": "",
+            "pbi:refreshPolicy": {
+                "$type": "FullRefreshPolicy",
+                "location": "DimStatuses.csv"
+            },
+            "attributes": [{
+                    "name": "StatusID",
+                    "dataType": "int64"
+                }, {
+                    "name": "Status",
+                    "dataType": "string"
+                }
+            ]
+        }, {
+            "$type": "LocalEntity",
+            "name": "DimTerritories",
+            "description": "",
+            "pbi:refreshPolicy": {
+                "$type": "FullRefreshPolicy",
+                "location": "DimTerritories.csv"
+            },
+            "attributes": [{
+                    "name": "TerritoryID",
+                    "dataType": "int64"
+                }, {
+                    "name": "Territory",
+                    "dataType": "string"
+                }, {
+                    "name": "TerritoryGroup",
+                    "dataType": "string"
+                }
+            ]
+        }, {
+            "$type": "LocalEntity",
+            "name": "DimShipMethods",
+            "description": "",
+            "pbi:refreshPolicy": {
+                "$type": "FullRefreshPolicy",
+                "location": "DimShipMethods.csv"
+            },
+            "attributes": [{
+                    "name": "ShipMethodID",
+                    "dataType": "int64"
+                }, {
+                    "name": "ShipMethod",
+                    "dataType": "string"
+                }
+            ]
+        }, {
+            "$type": "LocalEntity",
+            "name": "DimProducts",
+            "description": "",
+            "pbi:refreshPolicy": {
+                "$type": "FullRefreshPolicy",
+                "location": "DimProducts.csv"
+            },
+            "attributes": [{
+                    "name": "ProductID",
+                    "dataType": "int64"
+                }, {
+                    "name": "Product",
+                    "dataType": "string"
+                }, {
+                    "name": "ProductSubCategory",
+                    "dataType": "string"
+                }, {
+                    "name": "ProductCategory",
+                    "dataType": "string"
+                }
+            ]
+        }, {
+            "$type": "LocalEntity",
+            "name": "DimDates",
+            "description": "",
+            "pbi:refreshPolicy": {
+                "$type": "FullRefreshPolicy",
+                "location": "DimDates.csv"
+            },
+            "attributes": [{
+                    "name": "Date",
+                    "dataType": "date"
+                }, {
+                    "name": "Year",
+                    "dataType": "double"
+                }, {
+                    "name": "Month",
+                    "dataType": "double"
+                }, {
+                    "name": "Day",
+                    "dataType": "double"
+                }
+            ]
+        }
+    ]
+}
