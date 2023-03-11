@@ -42,3 +42,4 @@ Power BI Training<br/>
 - [Lesson #031 - Demo #20 | Power BI Service | Paginated Report](https://youtu.be/JDG5JKJHBT8)
 - [Lesson #032 - Demo #21 | Power BI Service | Dashboards](https://youtu.be/WeZ0alqP1RU)
 - [Lesson #033 - Demo #22 | Power BI Service | Apps](https://youtu.be/tLcRvsCFq70)
+- [Lesson #034 - Demo #23 | Power BI Service | Scorecards & Metrics](https://youtu.be/nny4vATvoPU)
