@@ -1,0 +1,5 @@
+Learn Power BI In Arabic - #035 - Demo #24 | Power BI Service | Streaming Datasets | Real-time Datasets: https://youtu.be/Kfknij2RUUs
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-bi/connect-data/service-real-time-streaming
+https://www.youtube.com/watch?v=rjXJ0GSUMBg
