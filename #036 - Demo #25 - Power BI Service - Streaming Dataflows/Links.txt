@@ -1,0 +1,4 @@
+Learn Power BI In Arabic - #036 - Demo #25 | Power BI Service | Streaming Dataflows: https://youtu.be/V2AScL9hqII
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-streaming
