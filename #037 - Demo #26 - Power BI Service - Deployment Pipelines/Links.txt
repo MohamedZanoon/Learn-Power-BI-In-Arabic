@@ -1,0 +1,6 @@
+Learn Power BI In Arabic - #037 - Demo #26 | Power BI Service | Deployment Pipelines: https://youtu.be/UdoQyXoRbzc
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-bi/create-reports/deployment-pipelines-overview
+https://learn.microsoft.com/en-us/power-bi/create-reports/deployment-pipelines-process
+https://learn.microsoft.com/en-us/power-bi/create-reports/deployment-pipelines-best-practices

@@ -45,3 +45,4 @@ Power BI Training<br/>
 - [Lesson #034 - Demo #23 | Power BI Service | Scorecards & Metrics](https://youtu.be/nny4vATvoPU)
 - [Lesson #035 - Demo #24 | Power BI Service | Streaming Datasets](https://youtu.be/Kfknij2RUUs)
 - [Lesson #036 - Demo #25 | Power BI Service | Streaming Dataflows](https://youtu.be/V2AScL9hqII)
+- [Lesson #037 - Demo #26 | Power BI Service | Deployment Pipelines](https://youtu.be/UdoQyXoRbzc)
