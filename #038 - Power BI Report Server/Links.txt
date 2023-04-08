@@ -1,0 +1,5 @@
+Learn Power BI In Arabic - #038 - Power BI Report Server: https://youtu.be/tP_muSzEIdg
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-bi/report-server/get-started
+https://powerbi.microsoft.com/en-us/report-server
