@@ -1,0 +1,4 @@
+Learn Power BI In Arabic - #039 - Power BI Service vs. Power BI Report Server: https://youtu.be/-21RoaDfELc
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-bi/report-server/compare-report-server-service
