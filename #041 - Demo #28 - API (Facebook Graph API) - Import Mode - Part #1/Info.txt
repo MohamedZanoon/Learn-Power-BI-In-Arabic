@@ -1,0 +1,7 @@
+Endpoint:
+
+https://graph.facebook.com/v16.0/me?fields=id,name,posts{created_time,message,description},photos
+
+Access Token -- App
+
+EAACTesdasdsadasdasdasdasdasd3TiBymQyhKj9tkR6ICBiSNuQx703fyMxi1h7spFWQuoHZBFoY4b8nZBJzxZxdasdasdasdasdKjzVEadasdsadV6IzsqCLMgvSmKvsdasdasdasdc7gouITLXO6m3Ub4lasdasdasdasdasdx4JwmHOkeXBZCIMOWWJxkdIs7BBN

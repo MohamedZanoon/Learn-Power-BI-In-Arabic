@@ -1,0 +1,11 @@
+@@ Facebook (Graph API)
+- Data Source: 
+https://developers.facebook.com/docs/graph-api
+https://graph.facebook.com
+
+Conductivity Mode => Import
+
+- Create Facebook App to Get The Access Token (https://developers.facebook.com)
+- Create The Request to Get The Account ID, Name, Posts, Photos using Graph API Explorer
+
+-- Good Colors, Layout and Chart Titles (Meaningful)
