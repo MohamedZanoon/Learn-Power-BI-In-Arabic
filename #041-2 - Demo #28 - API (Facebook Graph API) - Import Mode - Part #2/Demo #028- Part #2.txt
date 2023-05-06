@@ -1,0 +1,35 @@
+@@ Facebook (Graph API)
+- Data Source: 
+https://developers.facebook.com/docs/graph-api
+https://graph.facebook.com
+
+Conductivity Mode => Import
+
+- Create Facebook App to Get The Access Token (https://developers.facebook.com)
+- Create The Request to Get The Account ID, Name, Posts, Photos using Graph API Explorer
+
+Transformation:
+- Add Graph API to Power BI Desktop
+- Rename Queryies Name
+- Rename Columns 
+- Change Datatype
+- Add Parameters to Power Query Editor to manage URL and Access Token
+
+Modeling:
+- Add Post URL by Power Query Editor
+- Add Photo URL bt DAX
+- # Posts Measure
+- # Photos Measure
+- Selected Account Name Measure
+- Dates Table by DAX and Mark it as a Date Table
+
+Visuals: (User Measures)
+- # Posts Card 
+- # Photos Card 
+- Display the selected Account Card
+- Add Slicer Date to filter the posts and photos
+- Post Details in Table (Add post url and change it to icon)
+- Photo Details in Table (Add photo url and change it to icon)
+
+
+-- Good Colors, Layout and Chart Titles (Meaningful)

@@ -1,0 +1,6 @@
+Learn Power BI In Arabic - #041-2 - Demo #28 | API (Facebook Graph API) | Import Mode | Part #2: https://youtu.be/btABANc_i9M
+
+Other Links:  
+https://developers.facebook.com/docs/graph-api
+https://graph.facebook.com
+https://developers.facebook.com

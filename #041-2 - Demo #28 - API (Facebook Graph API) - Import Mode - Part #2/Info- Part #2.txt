@@ -1,0 +1,13 @@
+Endpoint:
+
+https://graph.facebook.com/v16.0/me?fields=id,name,posts{created_time,message,description},photos
+
+Access Token -- App
+
+EAACTesdasdsadasdasdasdasdasd3TiBymQyhKj9tkR6ICBiSNuQx703fyMxi1h7spFWQuoHZBFoY4b8nZBJzxZxdasdasdasdasdKjzVEadasdsadV6IzsqCLMgvSmKvsdasdasdasdc7gouITLXO6m3Ub4lasdasdasdasdasdx4JwmHOkeXBZCIMOWWJxkdIs7BBN
+
+
+----------------------------
+
+
+https://graph.facebook.com/v16.0/me?fields=id,name,posts{created_time,message,description},photos&access_token=EAACTeMAxsWMBADfbZBadsdasdasdsadsadsadsadasdasdsadasdasdasdasdsdasdasdasdsadO8QwZCbaPZCJU5XqpR3V0SKH7VND6S8n3Wrx6eiwifpYwtQZDZD

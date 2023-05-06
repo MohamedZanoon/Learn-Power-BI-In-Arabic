@@ -50,4 +50,5 @@ Power BI Training<br/>
 - [Lesson #038 - Power BI Report Server](https://youtu.be/tP_muSzEIdg)
 - [Lesson #039 - Power BI Service vs. Power BI Report Server](https://youtu.be/-21RoaDfELc)
 - [Lesson #040 - Demo #27 | Power BI Report Server | Download & Install & Configure](https://youtu.be/CJegu5-G7po)
-- [Lesson #041 - Demo #28 | API (Facebook Graph API) | Import Mode | Part #1](https://youtu.be/-SSjlSnqREo)
+- [Lesson #041-1 - Demo #28 | API (Facebook Graph API) | Import Mode | Part #1](https://youtu.be/-SSjlSnqREo)
+- [Lesson #041-2 - Demo #28 | API (Facebook Graph API) | Import Mode | Part #2](https://youtu.be/btABANc_i9M)
