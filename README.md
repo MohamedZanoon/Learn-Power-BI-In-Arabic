@@ -54,3 +54,4 @@ Power BI Training<br/>
 - [Lesson #041-2 - Demo #28 | API (Facebook Graph API) | Import Mode | Part #2](https://youtu.be/btABANc_i9M)
 - [Lesson #042 - Demo #29 | Power BI Report Server | Publish Reports | Use Reports](https://youtu.be/lDAXOk4FiJQ)
 - [Lesson #043 - Demo #30 | Power BI Report Server | Scheduled Refresh](https://youtu.be/fdlv4vLdseA)
+- [Lesson #044 - Demo #31 | Power BI Report Server | Access & Share](https://youtu.be/vve3HeFJPVk)
