@@ -55,3 +55,4 @@ Power BI Training<br/>
 - [Lesson #042 - Demo #29 | Power BI Report Server | Publish Reports | Use Reports](https://youtu.be/lDAXOk4FiJQ)
 - [Lesson #043 - Demo #30 | Power BI Report Server | Scheduled Refresh](https://youtu.be/fdlv4vLdseA)
 - [Lesson #044 - Demo #31 | Power BI Report Server | Access & Share](https://youtu.be/vve3HeFJPVk)
+- [Lesson #045 - Demo #32 | Power BI Report Server | Row-Level Security | RLS](https://youtu.be/3ZvmIccZFXo)
