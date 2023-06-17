@@ -1,0 +1,6 @@
+Learn Power BI In Arabic - #045 - Demo #32 | Power BI Report Server | Row-Level Security | RLS
+https://youtu.be/3ZvmIccZFXo
+
+Other Links:  
+https://powerbi.microsoft.com
+https://powerbi.microsoft.com/en-us/report-server
