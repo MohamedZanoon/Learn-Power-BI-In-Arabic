@@ -58,3 +58,4 @@ Power BI Training<br/>
 - [Lesson #045 - Demo #32 | Power BI Report Server | Row-Level Security | RLS](https://youtu.be/3ZvmIccZFXo)
 - [Lesson #046 - Demo #33 | Power BI Report Server | Paginated Reports](https://youtu.be/DRDvCBih7uo)
 - [Lesson #047 - Demo #34 | Power BI Report Server | Data Sources](https://youtu.be/y6DcFgEYatU)
+- [Lesson #048 - Demo #35 | Power BI Report Server | Datasets](https://youtu.be/BnfjzJrpvic)
