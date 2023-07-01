@@ -1,4 +1,0 @@
-Learn Power BI In Arabic - #032 - Demo #21 | Power BI Service | Dashboards: https://youtu.be/WeZ0alqP1RU
-
-Other Links:  
-https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboard-add-widget#add-web-content

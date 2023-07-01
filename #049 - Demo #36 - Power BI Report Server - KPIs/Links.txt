@@ -1,0 +1,5 @@
+Learn Power BI In Arabic - #049 - Demo #36 | Power BI Report Server | KPIs
+https://youtu.be/pcCGfwXsGjc
+
+Other Links:  
+https://learn.microsoft.com/en-us/sql/reporting-services/working-with-kpis-in-reporting-services?view=sql-server-ver16

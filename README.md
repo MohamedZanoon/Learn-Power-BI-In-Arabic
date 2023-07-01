@@ -59,3 +59,4 @@ Power BI Training<br/>
 - [Lesson #046 - Demo #33 | Power BI Report Server | Paginated Reports](https://youtu.be/DRDvCBih7uo)
 - [Lesson #047 - Demo #34 | Power BI Report Server | Data Sources](https://youtu.be/y6DcFgEYatU)
 - [Lesson #048 - Demo #35 | Power BI Report Server | Datasets](https://youtu.be/BnfjzJrpvic)
+- [Lesson #049 - Demo #36 | Power BI Report Server | KPIs](https://youtu.be/pcCGfwXsGjc)
