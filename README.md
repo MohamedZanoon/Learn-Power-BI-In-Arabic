@@ -6,6 +6,7 @@ Power BI Training<br/>
 - YouTube Channel: https://www.youtube.com/@ZanoonLab
 - Facebook Group: https://www.facebook.com/groups/zanoonlab
 - Facebook Page: https://www.facebook.com/zanoonlab
+- Telegram Group: https://t.me/PowerBIInArabic
 - Email: zanoon.lab@gmail.com
 - Agenda: https://bit.ly/3BWZ4o4
 
