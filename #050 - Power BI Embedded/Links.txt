@@ -1,0 +1,9 @@
+Learn Power BI In Arabic - #050 - Power BI Embedded
+https://youtu.be/774LPo8NJlY
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-bi/report-server/quickstart-embed
+https://azure.microsoft.com/en-us/products/power-bi-embedded/
+https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal
+https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-embed-secure
+
