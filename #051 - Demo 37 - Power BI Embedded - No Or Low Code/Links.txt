@@ -1,0 +1,6 @@
+Learn Power BI In Arabic - #051 - Demo #37 | Power BI Embedded | No Or Low Code
+https://youtu.be/bT81WGXzGQ0
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-bi/report-server/quickstart-embed
+https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-embed-secure?source=recommendations
