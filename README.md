@@ -63,3 +63,4 @@ Power BI Training<br/>
 - [Lesson #049 - Demo #36 | Power BI Report Server | KPIs](https://youtu.be/pcCGfwXsGjc)
 - [Lesson #050 - Power BI Embedded](https://youtu.be/774LPo8NJlY)
 - [Lesson #051 - Demo #37 | Power BI Embedded | No Or Low Code](https://youtu.be/bT81WGXzGQ0)
+- [Lesson #052 - Power BI Mobile](https://youtu.be/Lexf7BCry54)
