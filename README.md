@@ -64,3 +64,4 @@ Power BI Training<br/>
 - [Lesson #050 - Power BI Embedded](https://youtu.be/774LPo8NJlY)
 - [Lesson #051 - Demo #37 | Power BI Embedded | No Or Low Code](https://youtu.be/bT81WGXzGQ0)
 - [Lesson #052 - Power BI Mobile](https://youtu.be/Lexf7BCry54)
+- [Lesson #053 - Demo #38 | Power BI Mobile | Mobile Layout](https://youtu.be/eqXnVBWMyxc)

@@ -1,0 +1,6 @@
+Learn Power BI In Arabic - #053 - Demo #38 | Power BI Mobile | Mobile Layout
+https://youtu.be/eqXnVBWMyxc
+
+Other Links:  
+https://powerbi.microsoft.com/en-us/mobile
+https://learn.microsoft.com/en-us/power-bi/report-server/configure-powerbi-mobile-apps-remote
