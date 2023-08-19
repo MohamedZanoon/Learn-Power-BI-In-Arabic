@@ -67,3 +67,4 @@ Power BI Training<br/>
 - [Lesson #053 - Demo #38 | Power BI Mobile | Mobile Layout](https://youtu.be/eqXnVBWMyxc)
 - [Lesson #054 - Demo #39 | Power BI Buttons](https://youtu.be/q5BnP-dGPD8)
 - [Lesson #055 - Demo #40 | Power BI Bookmarks](https://youtu.be/S6F4hdJe6wA)
+- [Lesson #056 - Demo #41 | Power BI Parameters](https://youtu.be/crZgRZWf9tw)

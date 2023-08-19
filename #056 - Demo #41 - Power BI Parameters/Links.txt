@@ -1,0 +1,8 @@
+Learn Power BI In Arabic - #056 - Demo #41 | Power BI Parameters
+https://youtu.be/crZgRZWf9tw
+
+Other Links:  
+https://learn.microsoft.com/en-us/power-query/power-query-query-parameters
+https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-what-if
+https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-field-parameters
+https://www.sqlbi.com/articles/fields-parameters-in-power-bi
