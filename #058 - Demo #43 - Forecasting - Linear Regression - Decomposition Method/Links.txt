@@ -1,0 +1,10 @@
+Learn Power BI In Arabic - #058 - Demo #43 | Forecasting | Linear Regression | Decomposition Method
+https://youtu.be/1voxG6_EezM
+
+Other Links:  
+https://www.ixl.com/math/lessons/slope-intercept-form
+https://www.katesmathlessons.com/intro-to-slope-intercept-form.html
+https://en.wikipedia.org/wiki/Linear_regression
+http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm
+https://en.wikipedia.org/wiki/Decomposition_of_time_series
+https://www.linkedin.com/pulse/time-series-forecasting-power-bi-decomposition-method-yuan-mcse/
